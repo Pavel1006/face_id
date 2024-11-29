@@ -21,7 +21,7 @@ const CameraCapture = () => {
       try {
         // Create a FormData object to send the image file to the backend
         const formData = new FormData();
-        const file = dataURLtoFile(imageSrc, "captured.jpg");
+        const file = dataURLtoFile(imageSrc, "test_image.jpg");
         formData.append("file", file);
         console.log(file);
 
